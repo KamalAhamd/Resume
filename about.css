@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.logo {
+  font-size: 50px;
+  color: #7d6233;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-bottom: 0%;
+  font-size: 20px;
+  align-items: center;
+}
+
+.top a:hover {
+  background-color: #ddac57;
+}
+
+.top a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  /* border: solid 2px white; */
+  background-color: #7d6233;
+  border-radius: 5vmax;
+  width: 6rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  margin: auto;
+  width: 80%;
+  margin-top: 150px;
+  background: #7d6233;
+  box-shadow: 13px 17px 8vh 1px gray;
+
+  padding-top: 20px;
+
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px gray;
+}
+
+.footer p {
+  padding: 5vh;
+  padding-top: 3vh;
+  /* f: #2c2c6c; */
+  text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px gray;
+}
+
+.footer img {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0px 0px 20px rgb(117, 117, 117);
+}
+.footer img:hover {
+  transform: scale(1.1);
+  background-color: #ddac57;
+}
